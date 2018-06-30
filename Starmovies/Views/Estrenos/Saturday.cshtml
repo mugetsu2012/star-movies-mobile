@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "Saturday Night Fever";
+}
+
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('@Url.Content("/img/saturday.jpg")');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h1 class="title">Saturday Night Fever</h1>
+                <h4>El musical</h4>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main main-raised">
+    <div class="container">
+        <div class="section section-text">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <h3 class="title">Horarios</h3>
+                    <p>
+                        2:30/4:30/6:30PM
+                        <br>
+
+                    </p>
+                    <br>
+                    <h3 class="title">Protagonistas</h3>
+                    <p>
+                        <ul>
+                            <li>John Travolta</li>
+                            <li>Karen Lynn Gorney</li>
+                        </ul>
+                    </p>
+                    <br />
+                    <br />
+                    <h3 class="title">Sinopsis</h3>
+                    <p>
+                        Tony Manero (John Travolta) es un muchacho neoyorquino italo-estadounidense, que tiene un trabajo intrascendente como dependiente de una tienda de pinturas, pero su vida cambia los sábados por la noche bailando en la discoteca Odisea 2001, donde es una estrella. Allí conoce a Stephanie Mangano (Karen Lynn Gorney), que se transforma en su pareja de baile para participar en un campeonato que se realizará en la discoteca. Él intenta una relación amorosa, pero ella, con más educación que él, lo rechaza a pesar de sentirse atraída por él, y planea cambiarse de barrio buscando mejores oportunidades, pero acepta ser su compañera de baile. Tony tiene un hermano, Frank (Martin Shakar) que es sacerdote, pero que abandona los hábitos. Tony también tiene su propia pandilla, que mantiene peligrosas disputas con otras pandillas. Conflictos familiares, amorosos y juveniles se entrecruzan para terminar algunos en tragedia. Llega el momento del campeonato de baile y él y su pareja son los ganadores, pero Tony ha madurado y decide que debe tomar una decisión.
+                        <br />
+
+                    </p>
+
+                </div>
+                <div class="section col-md-10 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Escena de baile" src="@Url.Content("/img/saturday-1.jpg")">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Escena de baile" src="@Url.Content("/img/saturday-2.jpg")">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="@Url.Action("Index")" class="btn btn-primary pull-right btn-round">Volver al listado</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

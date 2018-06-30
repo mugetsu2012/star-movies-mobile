@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewData["Title"] = "Estrenos";
+}
+
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('@Url.Content("/img/empty-cinema.jpg")');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">Un lugar, todas tus peliculas favoritas</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main main-raised">
+    <div class="container">
+        <div class="section">
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-raised card-background" style="background-image: url('@Url.Content("/img/dirty-dancing.jpg")')">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Clasicos</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Dirty Dancing</h3>
+                            </a>
+                            <p class="card-description">
+                                Pasando el verano en el resort Catskills con su familia, Frances "Baby" House se enamora del instructor de baile del campamento, Johnny Castle
+                            </p>
+                            <a href="@Url.Action("DirtyDancing")" class="btn btn-danger btn-round">
+                                <i class="material-icons">format_align_left</i> Ver cartelera
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-raised card-background" style="background-image: url('@Url.Content("/img/grease.jpg")')">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Clasicos</h6>
+                            <h3 class="card-title">Grease</h3>
+                            <p class="card-description">
+                                La buena chica Sandy y el grasoso Danny se enamoran hacia el final del verano. Cuando descubran insperadamente que estan en la misma secundaria, seran capaces de avivar su romance?
+                            </p>
+                            <a href="@Url.Action("Grease")" class="btn btn-primary btn-round">
+                                <i class="material-icons">format_align_left</i> Ver cartelera
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-raised card-background" style="background-image: url('@Url.Content("/img/flashdance.jpg")')">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Clasicos</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">FlashDance</h3>
+                            </a>
+                            <p class="card-description">
+                                Una mujer de Pittsburgh con dos trabajos como soldador y bailarina exotica desea entrar a una escuela de ballet.
+                            </p>
+                            <a href="@Url.Action("FlashDance")" class="btn btn-danger btn-round">
+                                <i class="material-icons">format_align_left</i> Ver cartelera
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-raised card-background" style="background-image: url('@Url.Content("/img/saturday.jpg")')">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Clasicos</h6>
+                            <h3 class="card-title">Saturday Night Fever</h3>
+                            <p class="card-description">
+                                Ansioso por su futuro después de la preparatoria, un italiano americano de 19 años de Brooklyn intenta escapar de la cruda realidad de su sombría vida familiar al dominar la pista de baile en la discoteca local.
+                            </p>
+                            <a href="@Url.Action("Saturday")" class="btn btn-primary btn-round">
+                                <i class="material-icons">format_align_left</i> Ver cartelera
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
